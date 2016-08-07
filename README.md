@@ -4,9 +4,6 @@
 
 > Another linter configuration for javascript `ES5`, `ES2015`, `ES.next` and `React` projects.
 
-![eslint-config-standard-deviation][eslint-config-standard-deviation]
-[eslint-config-standard-deviation]:./semicolon.jpg
-
 Based on `standard` shared eslint-config
 * [eslint-config-standard][standard]
 * [eslint-config-standard-react](https://github.com/feross/eslint-config-standard-react)
@@ -15,6 +12,9 @@ Based on `standard` shared eslint-config
 [standard][standard] shared eslint-config rules are almost fine but we do not like to force us to ...
 * not use semicolon `;`
 * put space before function parens `function foo ()`
+
+![eslint-config-standard-deviation][eslint-config-standard-deviation]
+[eslint-config-standard-deviation]:./semicolon.jpg
 
 [standard]: https://github.com/feross/eslint-config-standard
 
