@@ -10,7 +10,7 @@ Based on `standard` shared eslint-config
 * [eslint-config-standard-react](https://github.com/feross/eslint-config-standard-react)
 
 ## What is different from `standard` eslint-config ?
-[standard][standard] shared eslint-config rules are almost fine but we don´t like been force to ...
+[standard][standard] shared eslint-config rules are almost fine but we do not like to force us to ...
 * not use semicolon `;`
 * put space before function parens `function foo ()`
 
