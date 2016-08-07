@@ -4,7 +4,8 @@
 
 > Another linter configuration for javascript `ES5`, `ES2015`, `ES.next` and `React` projects.
 
-Based on shared `standard` eslint-config
+
+Based on `standard` shared eslint-config
 * [eslint-config-standard][standard]
 * [eslint-config-standard-react](https://github.com/feross/eslint-config-standard-react)
 
