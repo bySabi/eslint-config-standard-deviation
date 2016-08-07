@@ -1,5 +1,7 @@
 # a [standard][standard] derived shared eslint-config
 
+[![npm version](https://badge.fury.io/js/eslint-config-standard-deviation.svg)](https://badge.fury.io/js/eslint-config-standard-deviation)
+
 > Another linter configuration for javascript `ES5`, `ES2015`, `ES.next` and `React` projects.
 
 Based on shared `standard` eslint-config
