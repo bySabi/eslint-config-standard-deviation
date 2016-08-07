@@ -56,7 +56,7 @@ Add `parser` babel-eslint to `.eslintrc`
 }
 ```
 
-### [optional] enable/disable [eslint rule](http://eslint.org/docs/rules/)
+### [optional] enable/disable [eslint rules](http://eslint.org/docs/rules/)
 ```json
 {
   "parser": "babel-eslint",
