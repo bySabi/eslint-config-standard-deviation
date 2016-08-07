@@ -40,7 +40,7 @@ npm install babel-eslint eslint-config-standard
 Add `extends` to project `.eslintrc`
 ```json
 {
-  "extends": ["eslint-config-config-standard"]
+  "extends": ["eslint-config-standard-deviation"]
 }
 ```
 
@@ -49,7 +49,7 @@ Add `parser` babel-eslint to `.eslintrc`
 ```json
 {
   "parser": "babel-eslint",
-  "extends": ["eslint-config-config-standard"]
+  "extends": ["eslint-config-standard-deviation"]
 }
 ```
 
@@ -57,13 +57,12 @@ Add `parser` babel-eslint to `.eslintrc`
 ```json
 {
   "parser": "babel-eslint",
-  "extends": ["eslint-config-config-standard"],
+  "extends": ["eslint-config-standard-deviation"],
   "rules": {
     "space-before-function-paren": ["2", "always"]
   }
 }
 ```
-
 
 ## Projects using `eslint-config-standard-deviation`
 * [react-scrollchor](https://github.com/bySabi/react-scrollchor)
