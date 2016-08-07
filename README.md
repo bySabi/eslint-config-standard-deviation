@@ -4,6 +4,8 @@
 
 > Another linter configuration for javascript `ES5`, `ES2015`, `ES.next` and `React` projects.
 
+![eslint-config-standard-deviation][eslint-config-standard-deviation]
+[eslint-config-standard-deviation]:./semicolon.jpg
 
 Based on `standard` shared eslint-config
 * [eslint-config-standard][standard]
