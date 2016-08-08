@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-standard-deviation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a shared eslint-config for javascript ES5, ES2015, ES.next and React projects",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,15 @@
     "ES.next",
     "React"
   ],
+  "devDependencies": {
+    "babel-eslint": "6.x.x",
+    "eslint": "3.x.x",
+    "eslint-config-standard": "*",
+    "eslint-config-standard-react": "*",
+    "eslint-plugin-standard": "*",
+    "eslint-plugin-promise": "*",
+    "eslint-plugin-react": "*"
+  },
   "author": "bySabi Files",
   "license": "ISC"
 }

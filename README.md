@@ -29,38 +29,27 @@ npm install eslint-config-standard-deviation --save-dev
 ### dependencies installation
 
 ```bash
-npm install eslint eslint-config-standard
+npm install eslint babel-eslint eslint-config-standard
  eslint-config-standard-react eslint-plugin-react eslint-plugin-promise eslint-plugin-standard --save-dev
 ```
 
-#### ES2015, ES.next and React support
+## Easy add to project
 ```bash
-npm install eslint babel-eslint eslint-config-standard
- eslint-config-standard-react eslint-plugin-react eslint-plugin-promise eslint-plugin-standard --save-dev
+npm install eslint eslint-modules-standard-deviation --save-dev
 ```
 
 ## Usage
 Add `extends` to project `.eslintrc`
 ```json
 {
-  "extends": ["eslint-config-standard-deviation"]
-}
-```
-
-### ES2015, ES.next and React support
-Add `parser` babel-eslint to `.eslintrc`
-```json
-{
-  "parser": "babel-eslint",
-  "extends": ["eslint-config-standard-deviation"]
+  "extends": ["standard-deviation"]
 }
 ```
 
 ### [optional] enable/disable [eslint rules](http://eslint.org/docs/rules/)
 ```json
 {
-  "parser": "babel-eslint",
-  "extends": ["eslint-config-standard-deviation"],
+  "extends": ["standard-deviation"],
   "rules": {
     "space-before-function-paren": ["2", "always"]
   }
@@ -75,6 +64,11 @@ Add scripts to `package.json`
   "test": "npm run lint && npm run testonly"
 }
 ```
+
+## Javascript `ES5` only support
+* [eslint-config-standard-deviation--es5](https://github.com/bySabi/eslint-config-standard-deviation--es5)
+* [eslint-modules-standard-deviation--es5](https://github.com/bySabi/eslint-modules-standard-deviation--es5)
+
 
 ## Projects using `eslint-config-standard-deviation`
 * [react-scrollchor](https://github.com/bySabi/react-scrollchor)
