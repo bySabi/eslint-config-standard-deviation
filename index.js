@@ -3,6 +3,6 @@ module.exports = {
 
   'rules': {
     'semi': [0, 'never'],
-    'space-before-function-paren': [2, 'never']
+    'space-before-function-paren': [0, 'never']
   }
 };

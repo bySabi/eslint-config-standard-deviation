@@ -28,12 +28,12 @@ npm install eslint-config-standard-deviation --save-dev
 
 ### dependencies installation
 
-ES5 only
 ```bash
-npm install eslint eslint-config-standard eslint-plugin-standard --save-dev
+npm install eslint eslint-config-standard
+ eslint-config-standard-react eslint-plugin-react eslint-plugin-promise eslint-plugin-standard --save-dev
 ```
 
-ES2015, ES.next and React
+#### ES2015, ES.next and React support
 ```bash
 npm install eslint babel-eslint eslint-config-standard
  eslint-config-standard-react eslint-plugin-react eslint-plugin-promise eslint-plugin-standard --save-dev
