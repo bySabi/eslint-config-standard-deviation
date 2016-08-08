@@ -30,12 +30,12 @@ npm install eslint-config-standard-deviation --save-dev
 
 ES5 only
 ```bash
-npm install eslint-config-standard eslint-plugin-standard --save-dev
+npm install eslint eslint-config-standard eslint-plugin-standard --save-dev
 ```
 
 ES2015, ES.next and React
-```
-npm install babel-eslint eslint-config-standard
+```bash
+npm install eslint babel-eslint eslint-config-standard
  eslint-config-standard-react eslint-plugin-react eslint-plugin-promise eslint-plugin-standard --save-dev
 ```
 
@@ -64,6 +64,15 @@ Add `parser` babel-eslint to `.eslintrc`
   "rules": {
     "space-before-function-paren": ["2", "always"]
   }
+}
+```
+
+Add scripts to `package.json`
+```json
+"scripts": {
+  "lint": "eslint . --ext .js,.jsx",
+  "testonly": "echo \"Error: no test specified\" && exit 1",
+  "test": "npm run lint && npm run testonly"
 }
 ```
 
