@@ -1,12 +1,13 @@
-# a [standard][standard] derived shared eslint-config
+# eslint-config-standard-deviation
 
 [![npm version](https://badge.fury.io/js/eslint-config-standard-deviation.svg)](https://badge.fury.io/js/eslint-config-standard-deviation)
 
-> Another linter configuration for javascript `ES5`, `ES2015`, `ES.next` and `React` projects.
+> ESLint [shared configuration](http://eslint.org/docs/developer-guide/shareable-configs) for javascript `ES5`, `ES2015`, `ES.next` and `React` projects based on `standard` shared eslint-config
 
-Based on `standard` shared eslint-config
+
 * [eslint-config-standard][standard]
 * [eslint-config-standard-react](https://github.com/feross/eslint-config-standard-react)
+
 
 ## What is different from `standard` eslint-config ?
 [standard][standard] shared eslint-config rules are almost fine but we do not like to force us to ...
