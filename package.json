@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-standard-deviation",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a shared eslint-config for javascript ES5, ES2015, ES.next and React projects",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "ES.next",
     "React"
   ],
-  "devDependencies": {
+  "peerDependencies": {
     "babel-eslint": "6.x.x",
     "eslint": "3.x.x",
     "eslint-config-standard": "*",
