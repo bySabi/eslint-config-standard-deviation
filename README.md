@@ -28,10 +28,9 @@
 npm install eslint-config-standard-deviation --save-dev
 ```
 
-#### WITH dependencies installation
+#### WITH dependencies
 ```bash
-npm install eslint babel-eslint eslint-config-standard
-npm install eslint-config-standard-react eslint-plugin-react eslint-plugin-promise eslint-plugin-standard --save-dev
+npm install eslint babel-eslint eslint-config-standard  eslint-config-standard-react eslint-plugin-react eslint-plugin-promise eslint-plugin-standard --save-dev
 ```
 
 #### OR add easily to projects using [eslint-modules-standard-deviation](https://github.com/bySabi/eslint-modules-standard-deviation)
