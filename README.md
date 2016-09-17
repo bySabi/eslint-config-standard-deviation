@@ -65,7 +65,7 @@ Add scripts to `package.json`
 }
 ```
 
-## for Javascript `ES5` only use
+## for Javascript `ES5` only, use
 * [eslint-config-standard-deviation--es5](https://github.com/bySabi/eslint-config-standard-deviation--es5)
 * [eslint-modules-standard-deviation--es5](https://github.com/bySabi/eslint-modules-standard-deviation--es5)
 
