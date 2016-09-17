@@ -23,19 +23,17 @@
 ## Installation
 
 ### npm
-
 ```bash
 npm install eslint-config-standard-deviation --save-dev
 ```
 
 ### dependencies installation
-
 ```bash
 npm install eslint babel-eslint eslint-config-standard
  eslint-config-standard-react eslint-plugin-react eslint-plugin-promise eslint-plugin-standard --save-dev
 ```
 
-## Easy add to project
+### OR add easily to projects in `npm 3` and beyond environments
 ```bash
 npm install eslint eslint-modules-standard-deviation --save-dev
 ```
@@ -67,10 +65,9 @@ Add scripts to `package.json`
 }
 ```
 
-## Javascript `ES5` only support
+## for Javascript `ES5` only support use
 * [eslint-config-standard-deviation--es5](https://github.com/bySabi/eslint-config-standard-deviation--es5)
 * [eslint-modules-standard-deviation--es5](https://github.com/bySabi/eslint-modules-standard-deviation--es5)
-
 
 ## Projects using `eslint-config-standard-deviation`
 * [react-scrollchor](https://github.com/bySabi/react-scrollchor)

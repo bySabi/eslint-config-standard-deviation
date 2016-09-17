@@ -1,19 +1,15 @@
 {
   "name": "eslint-config-standard-deviation",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a shared eslint-config for javascript ES5, ES2015, ES.next and React projects",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bySabi/eslint-config-standard-deviation.git"
   },
+  "homepage": "https://github.com/bySabi/eslint-config-standard-deviation#readme",
   "bugs": {
     "url": "https://github.com/bySabi/eslint-config-standard-deviation/issues"
   },
-  "homepage": "https://github.com/bySabi/eslint-config-standard-deviation#readme",
   "keywords": [
     "linter",
     "eslint",
@@ -25,14 +21,9 @@
     "ES.next",
     "React"
   ],
-  "peerDependencies": {
-    "babel-eslint": "6.x.x",
-    "eslint": "3.x.x",
-    "eslint-config-standard": "*",
-    "eslint-config-standard-react": "*",
-    "eslint-plugin-standard": "*",
-    "eslint-plugin-promise": "*",
-    "eslint-plugin-react": "*"
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "bySabi Files",
   "license": "ISC"
