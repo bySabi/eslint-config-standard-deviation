@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-standard-deviation",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a shared eslint-config for javascript ES5, ES2015, ES.next and React projects",
   "repository": {
     "type": "git",
@@ -24,6 +24,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "babel-eslint": "6.x.x",
+    "eslint": "3.x.x",
+    "eslint-config-standard": "*",
+    "eslint-config-standard-react": "*",
+    "eslint-plugin-standard": "*",
+    "eslint-plugin-promise": "*",
+    "eslint-plugin-react": "*"
   },
   "author": "bySabi Files",
   "license": "ISC"
