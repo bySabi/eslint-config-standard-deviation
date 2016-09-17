@@ -3,6 +3,7 @@
 [![npm version](https://badge.fury.io/js/eslint-config-standard-deviation.svg)](https://badge.fury.io/js/eslint-config-standard-deviation)
 [![npm downloads](https://img.shields.io/npm/dm/eslint-config-standard-deviation.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-standard-deviation)
 [![Known Vulnerabilities](https://snyk.io/test/github/bysabi/eslint-config-standard-deviation/badge.svg)](https://snyk.io/test/github/bysabi/eslint-config-standard-deviation)
+
 > ESLint [shared configuration](http://eslint.org/docs/developer-guide/shareable-configs) for javascript `ES5`, `ES2015`, `ES.next` and `React` projects based on `standard` shared eslint-config
 
 
@@ -45,6 +46,14 @@ Add `extends` to project `.eslintrc`
   "extends": ["standard-deviation"]
 }
 ```
+Add scripts to `package.json`
+```json
+"scripts": {
+  "lint": "eslint . --ext .js,.jsx",
+  "testonly": "echo \"Error: no test specified\" && exit 1",
+  "test": "npm run lint && npm run testonly"
+}
+```
 
 ### [optional] enable/disable [eslint rules](http://eslint.org/docs/rules/)
 ```json
@@ -56,16 +65,7 @@ Add `extends` to project `.eslintrc`
 }
 ```
 
-Add scripts to `package.json`
-```json
-"scripts": {
-  "lint": "eslint . --ext .js,.jsx",
-  "testonly": "echo \"Error: no test specified\" && exit 1",
-  "test": "npm run lint && npm run testonly"
-}
-```
-
-## for Javascript `ES5` only support use
+## for Javascript `ES5` only use
 * [eslint-config-standard-deviation--es5](https://github.com/bySabi/eslint-config-standard-deviation--es5)
 * [eslint-modules-standard-deviation--es5](https://github.com/bySabi/eslint-modules-standard-deviation--es5)
 
