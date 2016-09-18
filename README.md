@@ -60,7 +60,7 @@ Add scripts to `package.json`
 {
   "extends": ["standard-deviation"],
   "rules": {
-    "space-before-function-paren": ["2", "always"]
+    "space-before-function-paren": ["error", "always"]
   }
 }
 ```
